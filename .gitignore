@@ -1,0 +1,9 @@
+open-in-sheets.exe
+*.pdb
+release/
+
+# OAuth credentials for release builds - substituted at compile time by build.ps1
+client.local.txt
+
+# Launch assets and screenshots - kept locally, not published
+marketing/
